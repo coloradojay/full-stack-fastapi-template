@@ -12,7 +12,6 @@ repos:
       - id: end-of-file-fixer
         exclude: |
             (?x)^(
-                frontend/src/client/.*|
                 backend/app/email-templates/build/.*
             )$
       - id: trailing-whitespace
